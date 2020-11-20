@@ -142,7 +142,7 @@ class Player:
     def __init__(self, image):
         self.letters2state = {}                     # Dictionary relating each letter to its state (0, 1 or 2)
         for letter in abecedario:
-            self.letters2state[letter] = 1          # 0: not answered | 1: Verde | 2: Rojo
+            self.letters2state[letter] = 0          # 0: not answered | 1: Verde | 2: Rojo
         
         self.rectangle = blue_rectangle                 # Time rectangle
         self.unpressed_button = unpressed_blue_button
